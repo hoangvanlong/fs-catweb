@@ -1,9 +1,219 @@
 extends _layout/layout.pug
+
 block main 
 	section.home_slider
 		.container
 			.row
 				.col
-					h1 dihasuhdjaskdas
-					p 
-						a.btn.btn-more(href="") dslamdls
+					h1 Hi there! We are the new kids on the block  and we build awesome website and mobile apps.
+					p.mt-5.pt-3
+						a.btn.btn-more(href="") WORK WITH US!
+	section.home_services
+		.container
+			.row.text-center
+				.col-8.offset-2
+					h2.covien.pb-4 SERVICES WE PROVIDE
+					p We are working with both individuals and businesses from all over the goble to create awesome websites and applications.
+			.row.mt-4
+				.col-md-3 
+					figure
+						img(src="img/home_icon_1.png", alt="icon1")
+					h3 branding
+					p Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae impedit quia placeat!
+				.col-md-3 
+					figure
+						img(src="img/home_icon_2.png", alt="icon1")
+					h3 design
+					p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, rem?
+				.col-md-3
+					figure
+						img(src="img/home_icon_3.png", alt="icon1")
+					h3 Development
+					p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, consectetur expedita. Laudantium!
+				.col-md-3 
+					figure
+						img(src="img/home_icon_4.png", alt="icon1")
+					h3 ROCKET SCIENCE
+					p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, explicabo aliquid!
+	section.home_team
+		.container
+			.row
+				.col.mt-3
+					h2 SERVICES WE PROVIDE
+					p We are a small team of designers and developers, who help brands width big ideas.
+			.row
+				.col-md-3
+					figure.col-centered
+						img(src="img/home_team_1.png", alt="icon1")
+					h3 ANNE HATHAWAY
+					p
+						a(href="#") CEO / Marketing Guru
+					p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus aliquam aliquid vitae dolor nesciunt recusandae optio minima vero.
+				.col-md-3 
+					figure
+						img(src="img/home_team_1.png", alt="icon1")
+					h3 Kate Upton
+					p
+						a(href="#") CEO / Marketing Guru
+					p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt architecto cumque doloremque maxime ea eos est! Voluptate ipsum aspernatur sunt.
+				.col-md-3 
+					figure
+						img(src="img/home_team_1.png", alt="icon1")
+					h3 Olivia Wilde
+					p
+						a(href="#") CEO / Marketing Guru
+					p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit distinctio molestias, accusamus aperiam amet illum iste possimus praesentium blanditiis.
+				.col-md-3 
+					figure
+						img(src="img/home_team_1.png", alt="icon1")
+					h3 Ashley Greene
+					p
+						a(href="#") CEO / Marketing Guru
+					p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta aperiam excepturi quam non repellendus at mollitia quasi.
+					.row
+							a(href="#")
+								i.fab.fa-facebook-f 
+							a(href="#")
+								i.fab.fa-facebook-f
+							a(href="#")
+								i.fab.fa-facebook-f
+							a(href="#")
+								i.fab.fa-facebook-f
+	section.home_skills
+		.container
+			.row
+				.col-md-8.offset-2
+					h2.covien.pb-3 WE GOT SKILLS!
+					p.pt-3.mb-4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quia voluptas quo impedit molestias incidunt vel cum pariatur.
+			.row.mt-3
+				.col-md-3.col-sm-6
+					.progress.blue
+						span.progress-left
+							span.progress-bar
+						span.progress-right
+							span.progress-bar
+						.progress-value 90%
+					h4.mt-4 Web Design
+					
+				.col-md-3.col-sm-6
+					.progress.yellow
+						span.progress-left
+							span.progress-bar
+						span.progress-right
+							span.progress-bar
+						.progress-value 75%
+					h4.mt-4 HTML / CSS
+					
+				.col-md-3.col-sm-6
+					.progress.pink
+						span.progress-left
+							span.progress-bar
+						span.progress-right
+							span.progress-bar
+						.progress-value 70%
+					h4.mt-4 GRAPHIC DESIGN
+					
+				.col-md-3.col-sm-6
+					.progress.green
+						span.progress-left
+							span.progress-bar
+						span.progress-right
+							span.progress-bar
+						.progress-value 85%
+					h4.mt-4 UX/UI
+
+
+	section.home_portf
+		.container 
+			.row
+				.col-8.offset-2.text-center.mt-3
+					h2.covien.pb-3.pt-3 OUR PORTFOLIO
+					p.mt-3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit amet nobis accusamus quasi quidem cum dolores repudiandae optio odit.
+					a.btn.more.mr-3(href="#") All
+					a.btn.more.mr-3(href="#") WEB
+					a.btn.more.mr-3(href="#") APPS
+					a.btn.more.mr-3(href="#") ICONS
+			.row.mt-4
+				.col-md-6.mt-3
+					figure
+						img(src="img/home_portfolio_item_1.png", alt="alt")
+					p.text-center Isometric Perspective Mock-Up
+				.col-md-6.mt-3
+					figure
+						img(src="img/home_portfolio_item_2.png", alt="alt")
+					p.text-center Time Zone App UI
+				.col-md-6.mt-3
+					figure
+						img(src="img/home_portfolio_item_3.png", alt="alt")
+					p.text-center Viro Media Players UI copy 2
+				.col-md-6.mt-3
+					figure
+						img(src="img/home_portfolio_item_4.png", alt="alt")
+					p.text-center Blog / Magazine Flat UI Kit
+			.col-md-12.text-center.mt-3
+				a.btn.tinh.mb-5.mt-3(href="#") LOAD MORE PROJECTS
+	section.about
+		.container
+			.row.pt-5
+				.col-md-8.offset-2.text-center
+					h2.covien.pb-3 WHAT PEOPLE SAY ABOUT US
+					p Our clients love us! 
+			.row
+				.col-md-6.mt-4
+					.row
+						.col-md-4.text-center.offset-1
+							figure
+								img(src="img/home_people_say_1.png", alt="")
+						.col-md-7
+							p “Nullam dapibus blandit orci, viverra gravida dui lobortis eget"
+							h5 Chanel Iman 
+							p
+								a(href="#") CEO of Pinterest 
+				.col-md-6.mt-4
+					.row
+						.col-md-4.text-center.offset-1
+							figure
+								img(src="img/home_people_say_1.png", alt="")
+						.col-md-7
+							p “Nullam dapibus blandit orci, viverra gravida dui lobortis eget"
+							h5 Chanel Iman 
+							p
+								a(href="#") CEO of Pinterest 
+				.col-md-6.mt-4
+					.row
+						.col-md-4.text-center.offset-1
+							figure
+								img(src="img/home_people_say_1.png", alt="")
+						.col-md-7
+							p “Nullam dapibus blandit orci, viverra gravida dui lobortis eget"
+							h5 Chanel Iman 
+							p
+								a(href="#") CEO of Pinterest 
+				.col-md-6.mt-4
+					.row
+						.col-md-4.text-center.offset-1
+							figure
+								img(src="img/home_people_say_1.png", alt="")
+						.col-md-7
+							p “Nullam dapibus blandit orci, viverra gravida dui lobortis eget"
+							h5 Chanel Iman 
+							p
+								a(href="#") CEO of Pinterest 
+	section.getin
+		.container
+			.row
+				.col.text-center
+					h2.pt-3.pb-3.getintouch GET IN TOUCH
+					p 1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel(202) 456 1111
+			.row
+				.col-md-4.offset-2
+					input(style="width:100%",type="text", name="tk",placeholder="Your Name *")
+				.col-md-4
+					input(style="width:100%",type="email",name="tk",placeholder="Your Email *")
+			.row
+				.col-12.text-center.mt-3
+					textarea(name="", cols="98%", rows="10",placeholder="Your Message *")
+			.row
+				.col.text-center.mt-3.mb-3
+					a.btn.tinh(href="#") SEND MESSAGE
+
