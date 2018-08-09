@@ -4,22 +4,24 @@ h3, p, h4 {
 h3 {
   text-transform: uppercase; }
 
-.header_tinh {
-  background-color: transparent; }
-  .header_tinh ul {
-    min-width: 650px; }
-    .header_tinh ul li {
-      padding: 5px 20px; }
-      .header_tinh ul li a {
-        color: #fff;
-        text-decoration: none; }
-      .header_tinh ul li:hover {
-        border-radius: 5px;
+header {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  width: 100%; }
+  header nav.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around; }
+    header nav.menu ul a {
+      text-decoration: none;
+      color: #fff; }
+    header nav.menu ul li {
+      padding: 0.2rem 0.5rem;
+      border-radius: 0.3rem;
+        border-radius-list-style: none; }
+      header nav.menu ul li:hover {
         background: #643a79; }
-      .header_tinh ul li .hienthi {
-        color: black; }
-      .header_tinh ul li .hienthi:hover {
-        color: white; }
 
 .bg-new {
   background-color: #b3b3b3; }

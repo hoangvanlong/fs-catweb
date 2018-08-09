@@ -10,10 +10,10 @@ $(function () {
     })
     $(window).scroll(function () {
         if ($(window).scrollTop()>100) {
-            $('.navbar.fixed-top.header_tinh').addClass('bg-new');
+            $('.row.fixed-top.header_tinh').addClass('bg-new');
         }
         else {
-            $('.navbar.fixed-top.header_tinh').removeClass('bg-new');
+            $('.row.fixed-top.header_tinh').removeClass('bg-new');
         }
     })
 })
