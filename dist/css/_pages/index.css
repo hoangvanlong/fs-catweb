@@ -1,15 +1,4 @@
 body {
   font-family: 'Roboto Slab', serif; }
 
-footer {
-  background: #3c5499; }
-  footer li {
-    display: inline-block; }
-    footer li p a {
-      color: white;
-      font-weight: 600; }
-    footer li p:hover {
-      color: #3c5499;
-      text-decoration: none; }
-
 /*# sourceMappingURL=index.css.map */
