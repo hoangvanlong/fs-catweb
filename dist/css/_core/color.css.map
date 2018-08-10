@@ -1,0 +1,1 @@
+{"version":3,"file":"color.css","sources":["_core/color.sass"],"sourcesContent":["$tim: #87509c; //Tím\n$ngoc: #17c2a4; // Cyan\n$vang: #ffdd99; // Vang\n$do: #d74680; // Đỏ\n$xanh: #3c5499; // Xanh\n"],"names":[],"mappings":""}

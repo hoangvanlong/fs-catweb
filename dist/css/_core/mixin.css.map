@@ -1,0 +1,1 @@
+{"version":3,"file":"mixin.css","sources":["_core/mixin.sass"],"sourcesContent":["@mixin sectionweb($color: #fff) {\n    background: $color;\n    min-height: 368px;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    text-align: center;\n    padding: 3rem 0; }\n"],"names":[],"mappings":""}
