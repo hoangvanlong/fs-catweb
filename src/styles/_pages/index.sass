@@ -2,7 +2,7 @@
 
 // Slider ở trang chủ 
 .home-slider
-    +home-block($tim,$trang, 368px)
+    +home-block($tim,$trang, 600px)
     a
         +button($maunut,$trang)
 // Các dịch vụ   
@@ -12,5 +12,45 @@
         p 
             font-size: 16pt
 .home-team
-    +home-block($xemtrang,$mauh2,368px)
-   
+    +home-block($xemtrang,$mauh2,600px)
+    img 
+        width: 225px
+        height: 220px
+        border-radius: 50%
+    li 
+        +icon-circle()
+.home-skill
+    +home-block(null,$mauh2,600px)
+    .skill_item    
+        .pink
+            .bar
+                border-color: #d74680
+            .fill
+                border-color: #d74680
+        .cyan
+            .bar
+                border-color: #15c7a8
+            .fill
+                border-color: #15c7a8
+.home-porft
+    +home-block($vang,$mauh2,600px)
+    li
+        +button-list()
+        a 
+            color: $mauh2
+.home-about
+    +home-block($do,$trang,600px)
+    .row.mt-5
+        p
+            color: darken($vang,10%)
+.home-contact
+    +home-block($xanh,$trang,600px)
+    input,textarea
+        background: darken($xanh,10%)
+        outline: none
+        border: none
+        &::placeholder
+            color: white
+            margin: .5rem 
+        &:focus
+            background: darken($xanh,10%)

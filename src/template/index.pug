@@ -23,13 +23,118 @@ block main
 	section.home-team 
 		.container 
 			.row 
-				.col 
+				.col.mt-5.text-center 
 					h2 MEET OUR BEATIFUL TEAM
 					p We are a small team of designers and developers, who help brand with big ideas.
 			.row 
 				-for(var x = 1 ; x < 5 ; x++)
-					.col 
+					.col.mt-5.mb-4.mr-2
 						figure
 							img(src="./img/home_team_1.png", alt="")
+						h3 ANNE HATHAWAY
+						p 
+							a(href="#") CEO/ Maketing Guru
+						p.text-center.display-5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nobis inventore deserunt provident, nemo non temporibus laboriosam enim.
+						ul.text-center.pl-0
+							li
+								i.fa.fa-facebook
+							li
+								i.fa.fa-twitter
+							li
+								i.fa.fa-bug
+							li
+								i.fa.fa-envelope
+	section.home-skill
+		.container
+			.row
+				.col.mt-5.text-center 
+					h2 MEET OUR BEATIFUL TEAM
+					p We are a small team of designers and developers, who help brand with big ideas.
+			.row
+				.col.skill_item.col-md-3.mt-4.col-sm-6
+					.c100.p90.big
+						span 90%
+						.slice
+							.bar
+							.fill
+					h3.mt-4 WEB DESIGN
+				.col.skill_item.col-md-3.mt-4.col-sm-6
+					.c100.p75.big.pink
+						span 75%
+						.slice
+							.bar
+							.fill
+					h3.mt-4 HTML/CSS
+				.col.skill_item.col-md-3.mt-4.col-sm-6
+					.c100.p70.big.cyan
+						span 70%
+						.slice
+							.bar
+							.fill
+					h3.mt-4 GRAPHIC DESIGN
+				.col.skill_item.col-md-3.mt-4.col-sm-6.mb-4
+					.c100.p85.big.orange
+						span 85%
+						.slice
+							.bar
+							.fill
+					h3.mt-4 UX/UI
+	section.home-porft
+		.container
+			.row.pt-5
+				.col.text-center
+					h2 OUR PORTFOLIO
+					p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, cumque!
+			.row
+				.col
+					ul 
+						li
+							a.btn(href="#") ALL
+						li
+							a.btn(href="#") WEBS	
+						li
+							a.btn(href="#") APPS
+						li
+							a.btn(href="#") ICONS
+			.row
+				-for(var x = 1 ; x < 5 ; x++)
+					.col-md-6.mt-3
+						figure
+							img.img-fluid(src="./img/home_portfolio_"+x+".png", alt="")
+							p.mb-4.mt-3 TIME ZONE APP UI
+	section.home-about
+		.container
+			.row
+				.col.text-center
+					h2 OUR PORTFOLIO
+					p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, cumque!
+			.row.mt-5
+				- for(var x =1;x<5;x++)
+					.col-sm-6
+						.row
+							.col-sm-3
+								figure
+									img.img-fluid(src="./img/home_avatar_team_1.png", alt="")
+							.col-sm-8.text-left 
+								i Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, veritatis quas! Cum, aliquid.
+								h4 EMMA STONE
+								p LEADER Of Shazan
+	section.home-contact
+		.container
+			.row
+				.col.text-center
+					h2 OUR PORTFOLIO
+					p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, cumque!
+			.row
+				.col-md-8.offset-2
+					form
+						.form-row
+							.col
+								input.form-control(type="text", 	name="user",placeholder="Your Name")
+							.col
+								input.form-control(type="text", 	name="email",placeholder="Email")
+						.form-row.mt-3
+							.col
+								textarea.form-control(name="", cols="30", rows="10",placeholder="Your Text")
 
-				
+					
