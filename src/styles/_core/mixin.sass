@@ -1,8 +1,16 @@
-=sectionweb($color: #fff)
-    background: $color
-    min-height: 368px
+=home-block($khoaito: #fff,$mauchu: #fff, $he: 368px)
+    min-height: $he
     display: flex
     justify-content: center
     align-items: center
     text-align: center
-    padding: 3rem 0
+    background: $khoaito
+    color: $mauchu
+    letter-spacing: .025rem
+=button($cl-bg: #000,$color: #fff)
+    border-radius: 3px
+    border-bottom: 3px solid darken($cl-bg,5%)
+    background-color: $cl-bg
+    color: $color
+    padding: .5rem 3rem 
+    font-size: 16px

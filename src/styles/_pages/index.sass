@@ -1,33 +1,16 @@
+@import ../_core/nguyen
 
-@import ../_core/all
-
+// Slider ở trang chủ 
 .home-slider
-	+sectionweb($tim)
-	h1 
-		color: #fff 
-		font-size: 1.1rem
-	.btn-more
-		background: $vang
+    +home-block($tim,$trang, 368px)
+    a
+        +button($maunut,$trang)
+// Các dịch vụ   
 .home-services
-	+sectionweb($ngoc)
-	h2
-		position: relative
-		margin-bottom: 2rem
-		&:before,
-		&:after 
-			content: ''
-			display: block
-			background: black
-			position: absolute
-			left: 50%
-			transform: translateX(-50%)
-		&:before
-			width: 80px
-			height: 3px
-			bottom: -12px
-		&:after
-			width: 10px
-			height: 10px
-			bottom: -16px
-	img 
-		max-width: 120px
+    +home-block($ngoc,$trang , 368px)
+    .col.mt-5
+        p 
+            font-size: 16pt
+.home-team
+    +home-block($xemtrang,$mauh2,368px)
+   
