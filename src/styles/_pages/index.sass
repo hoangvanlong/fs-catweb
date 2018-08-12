@@ -1,5 +1,16 @@
 @import ../_core/nguyen
-
+//Header
+.header
+    +home-block($tim,$trang,50px)
+    a.nav-link.nav-tinh 
+        color: white
+        margin: .5rem .75rem
+        padding: 5px 15px
+        &:hover
+            background-color: darken($tim,15%)
+            border-radius: 3px
+            color: white
+// End-header    
 // Slider ở trang chủ 
 .home-slider
     +home-block($tim,$trang, 600px)
@@ -56,6 +67,14 @@
             background: darken($xanh,10%)
     a
         +button($ngoc,$trang)
+.footer
+    +home-block(darken($xanh,5%),$trang,50px)
+    li
+        +list-item()
+        a 
+            color: white
+            &:hover
+                color: $ngoc
 @media (min-width: 576px)
     .home-about
         .tinh-left
